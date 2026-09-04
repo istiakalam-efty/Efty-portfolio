@@ -278,7 +278,7 @@ export default function Hero({ ready }) {
               AHAMMED ISTIAK ALAM EFTY
             </span>
             <span className="text-[11px] text-[#78746c]">
-              B.Sc. Computer Science &amp; Engineering // Creative Dev
+              B.Sc. Computer Science &amp; Engineering
             </span>
           </div>
 
