@@ -155,16 +155,6 @@ export default function ProjectItem({ project, index, total }) {
       ref={sectionRef}
       className="relative w-full min-h-screen lg:h-screen bg-[#080808] text-[#f5f0e8] overflow-hidden flex flex-col justify-between p-6 sm:p-12 lg:p-16 border-t border-white/10 select-none"
     >
-      {/* Background Architectural Grid Lines */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)",
-          backgroundSize: "80px 80px"
-        }}
-      />
-
       {/* Top Bar: Project Index & Subtitle */}
       <div className="w-full flex items-center justify-between border-b border-white/10 pb-4 z-20">
         <div className="flex items-center gap-4">

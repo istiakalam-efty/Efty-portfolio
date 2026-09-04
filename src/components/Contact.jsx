@@ -175,16 +175,6 @@ export default function Contact() {
       ref={containerRef}
       className="relative w-full min-h-screen bg-[#040404] text-[#f5f0e8] px-6 sm:px-12 lg:px-20 pt-28 sm:pt-40 pb-12 overflow-hidden border-t border-white/10 select-none flex flex-col justify-between"
     >
-      {/* Background technical grid */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.025]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #c5a880 1px, transparent 1px), linear-gradient(to bottom, #c5a880 1px, transparent 1px)",
-          backgroundSize: "90px 90px"
-        }}
-      />
-
       <div className="max-w-[1700px] mx-auto w-full relative z-10 flex-1 flex flex-col justify-between">
         {/* Section Header */}
         <div className="flex items-center justify-between border-b border-white/10 pb-6 mb-16 sm:mb-24">

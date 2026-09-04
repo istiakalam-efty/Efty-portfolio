@@ -127,16 +127,6 @@ export default function Expertise() {
       ref={containerRef}
       className="relative w-full min-h-screen bg-[#070707] text-[#f5f0e8] px-6 sm:px-12 lg:px-20 py-28 sm:py-36 overflow-hidden border-t border-white/5"
     >
-      {/* Subtle Technical Blueprint Grid */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.035]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #c5a880 1px, transparent 1px), linear-gradient(to bottom, #c5a880 1px, transparent 1px)",
-          backgroundSize: "80px 80px"
-        }}
-      />
-
       {/* Floating Technology Badges */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {floatingTech.map((tech, idx) => (

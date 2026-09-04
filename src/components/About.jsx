@@ -160,16 +160,6 @@ export default function About() {
       ref={containerRef}
       className="relative w-full min-h-screen bg-[#0a0a0a] text-[#f5f0e8] px-6 sm:px-12 lg:px-20 py-28 sm:py-36 overflow-hidden border-t border-white/5"
     >
-      {/* Background fine grid */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)",
-          backgroundSize: "64px 64px"
-        }}
-      />
-
       <div className="max-w-[1600px] mx-auto relative z-10">
         {/* Section Header */}
         <div className="flex items-center justify-between border-b border-white/10 pb-6 mb-16 sm:mb-20">

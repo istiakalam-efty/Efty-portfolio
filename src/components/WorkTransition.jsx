@@ -61,11 +61,6 @@ export default function WorkTransition() {
             { x: 120, opacity: 0.2, duration: 0.8, ease: "power2.inOut" },
             0
           )
-          .to(
-            gridOverlayRef.current,
-            { backgroundPosition: "0px 120px", duration: 1, ease: "none" },
-            0
-          )
           .fromTo(
             topTagRef.current,
             { y: -30, opacity: 0 },
@@ -168,17 +163,6 @@ export default function WorkTransition() {
         ref={stageRef}
         className="relative w-full h-full flex flex-col justify-between p-6 sm:p-12 lg:p-16 items-center"
       >
-        {/* Shifting Technical Grid */}
-        <div
-          ref={gridOverlayRef}
-          className="absolute inset-0 pointer-events-none opacity-[0.04]"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #fff 1px, transparent 1px), linear-gradient(to bottom, #fff 1px, transparent 1px)",
-            backgroundSize: "70px 70px"
-          }}
-        />
-
         {/* Top Header Tag: 04 — SELECTED WORK */}
         <div
           ref={topTagRef}

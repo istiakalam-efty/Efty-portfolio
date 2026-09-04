@@ -248,16 +248,6 @@ export default function Hero({ ready }) {
         ref={stageRef}
         className="relative w-full h-full bg-[#f5f0e8] text-[#0f0f0f] flex flex-col justify-between p-4 sm:p-10 lg:p-14 transition-colors will-change-transform"
       >
-        {/* Subtle grid background texture overlay */}
-        <div
-          className="absolute inset-0 pointer-events-none opacity-[0.035]"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, #000 1px, transparent 1px), linear-gradient(to bottom, #000 1px, transparent 1px)",
-            backgroundSize: "60px 60px"
-          }}
-        />
-
         {/* Decorative Floating Crosshair */}
         <div
           ref={crosshairRef}
